@@ -1,0 +1,4 @@
+{"name":"juhwan","age":25,"city":"Nonsan"}
+{"name":"juhwan","today":"2021-11-17T23:31:57.245Z","city":"Nonsan"}
+{"name":"juhwan","city":"Nonsan"}
+{"name":"juhwan","age":"function () {return 25;}","city":"Nonsan"}
