@@ -1,0 +1,15 @@
+gimjuhwan-ui-MacBook-Air:downloads allan$ aws --profile default --endpoint-url https://s3.jp-tok.cloud-object-storage.appdomain.cloud/ s3 ls s3://kjh-test123 --recursive
+2021-11-18 15:47:09     460195 KakaoTalk_Photo_2021-11-18-15-46-49.jpeg
+2021-11-18 17:20:41     460195 pictur.jpeg
+2021-11-18 17:32:26     460195 pictura.jpeg
+gimjuhwan-ui-MacBook-Air:downloads allan$ aws --profile default --endpoint-url https://s3.jp-tok.cloud-object-storage.appdomain.cloud/ s3api head-object --bucket kjh-test123 --key pictura.jpeg
+{
+    "AcceptRanges": "bytes",
+    "LastModified": "2021-11-18T08:32:26+00:00",
+    "ContentLength": 460195,
+    "ETag": ""53666c783f6babf5976658c1738c93a3"",
+    "ContentType": "image/jpeg",
+    "Metadata": {
+        "work": "IBM"
+    }
+}
